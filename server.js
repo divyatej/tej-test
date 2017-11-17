@@ -1,5 +1,5 @@
-console.log('start----------');
-var port = 8080;
+console.log(process.env)
+var port = process.env.PORT;
 var serverUrl = "https://locahost/";
 var http = require("http");
 var path = require("path");
