@@ -1,9 +1,10 @@
+console.log('start----------');
 var port = 8080;
-var serverUrl = "https://tej-test.herokuapp.com/";
+var serverUrl = "https://locahost/";
 var http = require("http");
 var path = require("path");
 var fs = require("fs");
-console.log('start');
+console.log('start----------');
 http.createServer( function(req, res) {
 	console.log('server');
 	var filename = req.url;
